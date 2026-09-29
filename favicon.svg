@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+    <linearGradient id="laptop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="62" fill="url(#bg)"/>
+
+  <!-- Back Hair (bun) -->
+  <circle cx="64" cy="26" r="15" fill="url(#hair)"/>
+  <ellipse cx="64" cy="50" rx="27" ry="28" fill="url(#hair)"/>
+
+  <!-- Neck -->
+  <rect x="58" y="68" width="12" height="14" rx="4" fill="#FBBF24"/>
+
+  <!-- Clothes -->
+  <ellipse cx="64" cy="98" rx="34" ry="22" fill="#EC4899"/>
+  <path d="M42 90 Q64 102 86 90 L86 115 L42 115 Z" fill="#DB2777"/>
+
+  <!-- Face -->
+  <ellipse cx="64" cy="56" rx="22" ry="24" fill="url(#skin)"/>
+
+  <!-- Front Hair -->
+  <path d="M42 50 C44 32, 60 28, 64 28 C68 28, 84 32, 86 50 C80 44, 72 40, 64 42 C56 40, 48 44, 42 50 Z" fill="url(#hair)"/>
+  <path d="M42 50 Q46 64 43 72 Q39 60 42 50 Z" fill="url(#hair)"/>
+  <path d="M86 50 Q82 64 85 72 Q89 60 86 50 Z" fill="url(#hair)"/>
+
+  <!-- Eyebrows -->
+  <path d="M50 48 Q55 45 59 48" stroke="#1E1B4B" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M69 48 Q73 45 78 48" stroke="#1E1B4B" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Glasses -->
+  <rect x="47" y="50" width="14" height="11" rx="3" fill="none" stroke="#1E293B" stroke-width="2.5"/>
+  <rect x="67" y="50" width="14" height="11" rx="3" fill="none" stroke="#1E293B" stroke-width="2.5"/>
+  <line x1="61" y1="55" x2="67" y2="55" stroke="#1E293B" stroke-width="2.5"/>
+
+  <!-- Eyes behind glasses -->
+  <circle cx="54" cy="55.5" r="2.5" fill="#1E1B4B"/>
+  <circle cx="74" cy="55.5" r="2.5" fill="#1E1B4B"/>
+  <circle cx="55" cy="54.5" r="0.8" fill="#FFFFFF"/>
+  <circle cx="75" cy="54.5" r="0.8" fill="#FFFFFF"/>
+
+  <!-- Cheeks -->
+  <ellipse cx="48" cy="65" rx="3.5" ry="2" fill="#F472B6" opacity="0.6"/>
+  <ellipse cx="80" cy="65" rx="3.5" ry="2" fill="#F472B6" opacity="0.6"/>
+
+  <!-- Smile -->
+  <path d="M58 68 Q64 73 70 68" stroke="#92400E" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Laptop Screen raised in front -->
+  <rect x="36" y="86" width="56" height="34" rx="4" fill="url(#laptop)" stroke="#94A3B8" stroke-width="1.5"/>
+  <rect x="40" y="89" width="48" height="26" rx="2" fill="url(#screen)"/>
+
+  <!-- Code symbol on laptop screen: < / > -->
+  <!-- < -->
+  <path d="M49 102 L44 98 L49 94" stroke="#38BDF8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- / -->
+  <line x1="56" y1="104" x2="60" y2="92" stroke="#F43F5E" stroke-width="2" stroke-linecap="round"/>
+  <!-- > -->
+  <path d="M67 94 L72 98 L67 102" stroke="#4ADE80" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Laptop Keyboard Base -->
+  <path d="M28 120 L100 120 L94 125 L34 125 Z" fill="#94A3B8"/>
+</svg>
