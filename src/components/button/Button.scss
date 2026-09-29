@@ -1,0 +1,108 @@
+@import "../../_globalColor";
+
+.main-button {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  border: none !important;
+  outline: none !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  width: max-content;
+  padding: 13px 26px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 4px 14px 0 rgba(79, 70, 229, 0.35);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.main-button:hover {
+  background: linear-gradient(135deg, #4338ca 0%, #6d28d9 100%);
+  color: #ffffff !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: 0 8px 22px 0 rgba(79, 70, 229, 0.45);
+  transform: translateY(-2px);
+}
+
+.main-button:focus,
+.main-button:active {
+  transform: translateY(0);
+  border: none !important;
+  outline: none !important;
+  box-shadow: 0 2px 8px 0 rgba(79, 70, 229, 0.3);
+}
+
+.secondary-button,
+.secondary-button .main-button {
+  background: rgba(99, 102, 241, 0.1) !important;
+  border: none !important;
+  outline: none !important;
+  color: #4f46e5 !important;
+  box-shadow: none !important;
+}
+
+.secondary-button:hover,
+.secondary-button:hover .main-button,
+.secondary-button .main-button:hover {
+  background: rgba(99, 102, 241, 0.2) !important;
+  color: #4338ca !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transform: translateY(-2px);
+}
+
+.dark-mode .secondary-button,
+.dark-mode .secondary-button .main-button {
+  background: rgba(129, 140, 248, 0.15) !important;
+  border: none !important;
+  outline: none !important;
+  color: #a5b4fc !important;
+  box-shadow: none !important;
+}
+
+.dark-mode .secondary-button:hover,
+.dark-mode .secondary-button:hover .main-button,
+.dark-mode .secondary-button .main-button:hover {
+  background: rgba(129, 140, 248, 0.25) !important;
+  border: none !important;
+  outline: none !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+.project-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.project-button > .main-button {
+  margin-right: 0 !important;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .main-button {
+    font-size: 0.875rem;
+    padding: 12px 20px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-button {
+    font-size: 0.8rem;
+    padding: 10px 16px;
+    margin-right: 0px;
+  }
+}

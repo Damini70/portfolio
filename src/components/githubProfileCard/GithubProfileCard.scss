@@ -1,0 +1,121 @@
+@import "../../_globalColor";
+
+.profile-image {
+  border-radius: 50%;
+  padding: 4px;
+  background: linear-gradient(135deg, #4f46e5 0%, #a855f7 100%);
+  margin-left: auto;
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  box-shadow: 0 12px 30px rgba(79, 70, 229, 0.25);
+  transition: all 0.3s ease-out;
+  display: block;
+}
+
+.profile-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 16px 36px rgba(79, 70, 229, 0.35);
+}
+
+.prof-title {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 700;
+  color: $titleColor;
+}
+
+.dark-mode .prof-title {
+  color: $textColorDark;
+}
+
+.location-div {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.opp-div {
+  padding: 12px 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.main-content-profile {
+  flex: 1;
+}
+
+.image-content-profile {
+  text-align: right;
+  flex: 0 0 280px;
+}
+
+.bio-text {
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 15px 0;
+  color: #334155;
+}
+
+.dark-mode .bio-text {
+  color: #cbd5e1;
+}
+
+.desc-prof {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #475569;
+}
+
+.dark-mode .desc-prof {
+  color: #94a3b8;
+}
+
+.subTitle {
+  color: $subTitle;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .main-content-profile {
+    text-align: center;
+    order: 2;
+  }
+
+  .bio-text {
+    font-size: 16px;
+  }
+
+  .image-content-profile {
+    margin: 0 auto;
+    order: 1;
+    flex: none;
+  }
+
+  .desc-prof {
+    font-size: 15px;
+    justify-content: center;
+  }
+
+  .profile-image {
+    max-width: 200px;
+  }
+
+  .prof-title {
+    font-size: 32px;
+    text-align: center;
+  }
+}

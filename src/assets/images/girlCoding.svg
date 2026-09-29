@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf2f8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#ede9fe" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#e0e7ff" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="deskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fda4af"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="hoodieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="chairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Backdrop Circles -->
+  <circle cx="300" cy="250" r="210" fill="url(#bgGlow)"/>
+  <circle cx="480" cy="140" r="35" fill="#fbcfe8" opacity="0.6"/>
+  <circle cx="120" cy="160" r="25" fill="#c7d2fe" opacity="0.6"/>
+  
+  <!-- Floating Sparkles & Tech Stars -->
+  <path d="M470 90 Q475 105 490 110 Q475 115 470 130 Q465 115 450 110 Q465 105 470 90 Z" fill="#ec4899"/>
+  <path d="M140 110 Q144 122 156 126 Q144 130 140 142 Q136 130 124 126 Q136 122 140 110 Z" fill="#8b5cf6"/>
+  <path d="M420 280 Q423 290 433 293 Q423 296 420 306 Q417 296 407 293 Q417 290 420 280 Z" fill="#38bdf8"/>
+
+  <!-- Ergonomic Cute Gaming/Office Chair -->
+  <rect x="230" y="160" width="140" height="200" rx="35" fill="url(#chairGrad)" opacity="0.95"/>
+  <rect x="250" y="140" width="100" height="40" rx="15" fill="#c084fc"/>
+  <rect x="290" y="360" width="20" height="80" fill="#64748b"/>
+  <path d="M250 440 L350 440" stroke="#475569" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="250" cy="445" r="8" fill="#334155"/>
+  <circle cx="350" cy="445" r="8" fill="#334155"/>
+
+  <!-- Girl Coder Body & Hoodie -->
+  <path d="M245 280 Q300 250 355 280 L370 380 L230 380 Z" fill="url(#hoodieGrad)"/>
+  <!-- Hoodie Strings -->
+  <line x1="285" y1="285" x2="285" y2="330" stroke="#fdf2f8" stroke-width="3" stroke-linecap="round"/>
+  <line x1="315" y1="285" x2="315" y2="330" stroke="#fdf2f8" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Head & Hair (Bun + Cute Ponytail + Bangs) -->
+  <circle cx="300" cy="140" r="32" fill="url(#hairGrad)"/>
+  <ellipse cx="300" cy="210" rx="42" ry="46" fill="url(#hairGrad)"/>
+  <!-- Bun scrunchie in pink -->
+  <circle cx="300" cy="140" r="16" fill="#f43f5e"/>
+
+  <!-- Girl Face -->
+  <ellipse cx="300" cy="220" rx="34" ry="36" fill="#fcd34d"/>
+  
+  <!-- Headphones in cute pastel purple -->
+  <path d="M256 220 A44 44 0 0 1 344 220" stroke="#a855f7" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <rect x="252" y="205" width="12" height="28" rx="6" fill="#ec4899"/>
+  <rect x="336" y="205" width="12" height="28" rx="6" fill="#ec4899"/>
+
+  <!-- Hair Bangs framing face -->
+  <path d="M266 200 C275 175 325 175 334 200 C320 190 310 185 300 188 C290 185 280 190 266 200 Z" fill="url(#hairGrad)"/>
+  <path d="M266 200 Q272 230 268 245 Q262 225 266 200 Z" fill="url(#hairGrad)"/>
+  <path d="M334 200 Q328 230 332 245 Q338 225 334 200 Z" fill="url(#hairGrad)"/>
+
+  <!-- Eyebrows -->
+  <path d="M278 206 Q286 202 292 206" stroke="#1e1b4b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M308 206 Q314 202 322 206" stroke="#1e1b4b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Cute Glasses -->
+  <rect x="274" y="210" width="20" height="16" rx="5" fill="none" stroke="#312e81" stroke-width="3"/>
+  <rect x="306" y="210" width="20" height="16" rx="5" fill="none" stroke="#312e81" stroke-width="3"/>
+  <line x1="294" y1="218" x2="306" y2="218" stroke="#312e81" stroke-width="3"/>
+
+  <!-- Eyes behind glasses -->
+  <circle cx="284" cy="218" r="3.5" fill="#1e1b4b"/>
+  <circle cx="316" cy="218" r="3.5" fill="#1e1b4b"/>
+  <circle cx="285.5" cy="216.5" r="1.2" fill="#ffffff"/>
+  <circle cx="317.5" cy="216.5" r="1.2" fill="#ffffff"/>
+
+  <!-- Blush Cheeks -->
+  <ellipse cx="274" cy="232" rx="5" ry="3" fill="#f43f5e" opacity="0.65"/>
+  <ellipse cx="326" cy="232" rx="5" ry="3" fill="#f43f5e" opacity="0.65"/>
+
+  <!-- Sweet Smile -->
+  <path d="M292 236 Q300 243 308 236" stroke="#b45309" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Modern Desk in Pastel Rose/Coral -->
+  <rect x="80" y="370" width="440" height="14" rx="7" fill="url(#deskGrad)"/>
+  <rect x="110" y="384" width="16" height="90" rx="6" fill="#cbd5e1"/>
+  <rect x="474" y="384" width="16" height="90" rx="6" fill="#cbd5e1"/>
+
+  <!-- Modern Laptop on Desk -->
+  <rect x="220" y="310" width="160" height="100" rx="8" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="228" y="316" width="144" height="84" rx="4" fill="url(#screenGrad)"/>
+  <path d="M190" y="410" d="M190 410 L410 410 L395 422 L205 422 Z" fill="#cbd5e1"/>
+
+  <!-- Code Syntax on Laptop Screen: React & Python -->
+  <text x="238" y="336" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="bold">&lt;Damini /&gt;</text>
+  <text x="238" y="354" fill="#a78bfa" font-family="monospace" font-size="10">const app = () =&gt;</text>
+  <text x="238" y="372" fill="#34d399" font-family="monospace" font-size="10">def solve_ai():</text>
+  <text x="238" y="390" fill="#fbbf24" font-family="monospace" font-size="10">  return "Success ✨"</text>
+
+  <!-- Laptop Back Apple/Heart Logo Sticker -->
+  <circle cx="300" cy="358" r="8" fill="#f43f5e" opacity="0.2"/>
+
+  <!-- Cute Coffee Mug with Steam on Desk -->
+  <rect x="420" y="342" width="28" height="30" rx="5" fill="#fda4af"/>
+  <path d="M448 350 Q456 357 448 364" stroke="#fda4af" stroke-width="3" fill="none"/>
+  <!-- Heart on mug -->
+  <path d="M434 353 C434 350, 431 349, 430 351 C429 349, 426 350, 426 353 C426 356, 430 359, 430 360 C430 359, 434 356, 434 353 Z" fill="#e11d48"/>
+  <!-- Steam curls -->
+  <path d="M428 334 Q432 328 428 322" stroke="#fda4af" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M436 332 Q440 326 436 320" stroke="#fda4af" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Potted Plant on Desk (Cute Succulent) -->
+  <path d="M140 370 L160 370 L156 350 L144 350 Z" fill="#fb923c"/>
+  <circle cx="150" cy="342" r="10" fill="#34d399"/>
+  <circle cx="144" cy="346" r="8" fill="#10b981"/>
+  <circle cx="156" cy="346" r="8" fill="#059669"/>
+</svg>

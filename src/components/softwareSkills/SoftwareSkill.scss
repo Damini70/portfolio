@@ -1,0 +1,142 @@
+@import "../../_globalColor";
+
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 2rem;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px;
+  align-items: center;
+}
+
+.software-skill-inline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 62px;
+  padding: 6px 2px;
+  border-radius: 10px;
+  background: rgba(241, 245, 249, 0.6);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.dark-mode .software-skill-inline {
+  background: rgba(30, 41, 59, 0.6);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.software-skill-inline:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.1);
+  border-color: #818cf8;
+}
+
+.dark-mode .software-skill-inline:hover {
+  box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.4);
+  border-color: #6366f1;
+}
+
+.software-skill-inline > i {
+  color: #64748b;
+  font-size: 1.5rem;
+  transition: all 0.25s ease;
+}
+
+.dark-mode .software-skill-inline > i {
+  color: #94a3b8;
+}
+
+.software-skill-inline > p {
+  color: #64748b;
+  font-size: 10px;
+  font-weight: 600;
+  margin: 4px 0 0 0;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 54px;
+  transition: all 0.25s ease;
+}
+
+.dark-mode .software-skill-inline > p {
+  color: #94a3b8;
+}
+
+/* Brand Colors on Hover */
+.software-skill-inline:hover > i.fa-python {
+  color: #3776ab !important;
+}
+.software-skill-inline:hover > i.fa-react {
+  color: #61dafb !important;
+}
+.software-skill-inline:hover > i.fa-node {
+  color: #339933 !important;
+}
+.software-skill-inline:hover > i.fa-js {
+  color: #f7df1e !important;
+}
+.software-skill-inline:hover > i.fa-code {
+  color: #3178c6 !important;
+}
+.software-skill-inline:hover > i.fa-laptop-code {
+  color: #6366f1 !important;
+}
+.software-skill-inline:hover > i.fa-html5 {
+  color: #e34f26 !important;
+}
+.software-skill-inline:hover > i.fa-css3-alt {
+  color: #1572b6 !important;
+}
+.software-skill-inline:hover > i.fa-sass {
+  color: #06b6d4 !important;
+}
+.software-skill-inline:hover > i.fa-bootstrap {
+  color: #7952b3 !important;
+}
+.software-skill-inline:hover > i.fa-database {
+  color: #47a248 !important;
+}
+.software-skill-inline:hover > i.fa-git-alt {
+  color: #f05032 !important;
+}
+.software-skill-inline:hover > i.fa-aws {
+  color: #ff9900 !important;
+}
+.software-skill-inline:hover > i.fa-docker {
+  color: #2496ed !important;
+}
+.software-skill-inline:hover > i.fa-npm {
+  color: #cb3837 !important;
+}
+.software-skill-inline:hover > i.fa-robot {
+  color: #a855f7 !important;
+}
+
+.software-skill-inline:hover > p {
+  color: #1e293b !important;
+}
+
+.dark-mode .software-skill-inline:hover > p {
+  color: #f8fafc !important;
+}
+
+@media (max-width: 768px) {
+  .dev-icons {
+    justify-content: center;
+    gap: 10px;
+  }
+  .software-skill-inline {
+    width: 64px;
+    height: 68px;
+  }
+  .software-skill-inline > i {
+    font-size: 1.7rem;
+  }
+}

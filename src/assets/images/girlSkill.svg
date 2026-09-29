@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradSkillBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f3ff" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#ede9fe" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#fce7f3" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="barGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="barGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="girlTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#be185d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Backdrop -->
+  <circle cx="300" cy="250" r="215" fill="url(#gradSkillBg)"/>
+
+  <!-- Analytics and Skill Dashboard Board -->
+  <rect x="230" y="90" width="280" height="310" rx="20" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="2.5" filter="drop-shadow(0 12px 24px rgba(139,92,246,0.15))"/>
+  <!-- Top bar -->
+  <rect x="230" y="90" width="280" height="36" rx="20" fill="#f3e8ff"/>
+  <circle cx="255" cy="108" r="5" fill="#f43f5e"/>
+  <circle cx="270" cy="108" r="5" fill="#fbbf24"/>
+  <circle cx="285" cy="108" r="5" fill="#34d399"/>
+  <text x="370" y="113" font-size="12" font-weight="bold" fill="#7c3aed" text-anchor="middle">Skills &amp; Mastery 📊</text>
+
+  <!-- Skill Bars on Dashboard -->
+  <text x="260" y="156" font-size="11" font-weight="600" fill="#475569">MERN &amp; Full Stack</text>
+  <rect x="260" y="166" width="220" height="12" rx="6" fill="#f1f5f9"/>
+  <rect x="260" y="166" width="209" height="12" rx="6" fill="url(#barGrad1)"/>
+
+  <text x="260" y="206" font-size="11" font-weight="600" fill="#475569">React, Next.js &amp; TS</text>
+  <rect x="260" y="216" width="220" height="12" rx="6" fill="#f1f5f9"/>
+  <rect x="260" y="216" width="198" height="12" rx="6" fill="url(#barGrad2)"/>
+
+  <text x="260" y="256" font-size="11" font-weight="600" fill="#475569">Node.js &amp; Python</text>
+  <rect x="260" y="266" width="220" height="12" rx="6" fill="#f1f5f9"/>
+  <rect x="260" y="266" width="187" height="12" rx="6" fill="url(#barGrad1)"/>
+
+  <text x="260" y="306" font-size="11" font-weight="600" fill="#475569">Generative AI &amp; Cloud</text>
+  <rect x="260" y="316" width="220" height="12" rx="6" fill="#f1f5f9"/>
+  <rect x="260" y="316" width="176" height="12" rx="6" fill="url(#barGrad2)"/>
+
+  <!-- Star Badge -->
+  <circle cx="450" cy="365" r="22" fill="#fef08a" stroke="#f59e0b" stroke-width="2"/>
+  <text x="450" y="371" font-size="18" text-anchor="middle">🌟</text>
+
+  <!-- Girl Developer Standing Proudly Presenting Her Skills -->
+  <!-- Dark wavy hair ponytail -->
+  <path d="M130 180 C110 240 100 300 120 370 C140 380 180 380 200 370 C220 300 210 240 190 180 Z" fill="#1e1b4b"/>
+  <circle cx="170" cy="150" r="26" fill="#1e1b4b"/>
+  <circle cx="170" cy="150" r="10" fill="#f472b6"/>
+
+  <!-- Outfit / Dress -->
+  <path d="M135 240 Q165 220 195 240 L210 420 L120 420 Z" fill="url(#girlTop)"/>
+  <rect x="135" y="340" width="60" height="8" rx="4" fill="#fda4af"/>
+
+  <!-- Head -->
+  <ellipse cx="165" cy="190" rx="30" ry="34" fill="#fcd34d"/>
+  <!-- Bangs -->
+  <path d="M140 180 C150 150 185 150 192 180 C180 165 170 162 165 164 C160 162 150 165 140 180 Z" fill="#1e1b4b"/>
+
+  <!-- Glasses -->
+  <rect x="145" y="182" width="16" height="13" rx="3.5" fill="none" stroke="#312e81" stroke-width="2.2"/>
+  <rect x="169" y="182" width="16" height="13" rx="3.5" fill="none" stroke="#312e81" stroke-width="2.2"/>
+  <line x1="161" y1="188" x2="169" y2="188" stroke="#312e81" stroke-width="2.2"/>
+
+  <!-- Eyes & Blush -->
+  <circle cx="153" cy="188" r="2.5" fill="#1e1b4b"/>
+  <circle cx="177" cy="188" r="2.5" fill="#1e1b4b"/>
+  <circle cx="154" cy="187" r="0.9" fill="#ffffff"/>
+  <circle cx="178" cy="187" r="0.9" fill="#ffffff"/>
+  <ellipse cx="147" cy="202" rx="4.5" ry="2.5" fill="#f43f5e" opacity="0.7"/>
+  <ellipse cx="183" cy="202" rx="4.5" ry="2.5" fill="#f43f5e" opacity="0.7"/>
+  <path d="M159 206 Q165 212 171 206" stroke="#b45309" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Arm Pointing to Board -->
+  <path d="M190 250 Q230 220 250 200" stroke="#fcd34d" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <circle cx="250" cy="200" r="7" fill="#fcd34d"/>
+  <path d="M260 190 Q264 198 272 201 Q264 204 260 212 Q256 204 248 201 Q256 198 260 190 Z" fill="#fbbf24"/>
+
+  <!-- Floating Sparkles -->
+  <path d="M90 120 Q94 132 106 136 Q94 140 90 152 Q86 140 74 136 Q86 132 90 120 Z" fill="#ec4899"/>
+  <path d="M510 200 Q513 210 523 213 Q513 216 510 226 Q507 216 497 213 Q507 210 510 200 Z" fill="#a855f7"/>
+</svg>
